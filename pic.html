@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    
+    <div is="page" id="home" data-role="page">
+        <div is="header" data-role="header">
+            <h3>我的圖片</h3>
+            <a class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-home" href="index.html" rel="external">Back Home</a>
+        </div>
+        <div is="content" role="main" class="ui-content">
+            <ul is="listview" data-role="listview" data-inset="true" style="margin-top:0;">
+                <li is="list-divider" data-role="list-divider" style="text-align:center;font-size:20px; ">圖片</li>
+            </ul>
+            <ul is="listview" data-role="listview" data-inset="true" id="picture_list" style="margin:0;">
+                <li is="listview-li">
+                    <a href="#Content1" data-transition="pop">風景照</a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content2" data-transition="pop">人物</a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content3" data-transition="pop">動物</a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content4" data-transition="pop">其他</a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>    
+    
+    <!-- 風景照 Page: Content  -->
+    <div id="Content1" data-role="page">
+        <div data-role="header">
+            <h3></h3>
+            <a class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-home" href="index.html" rel="external">Back Home</a>
+        </div>
+        <div class="ui-content">
+            <div id="picture" style="font-size:20px; font-weight:bold;text-align:center;">風景照</div>
+            <div><img src="images/pic01.jpg" style="width:100%;"></div>
+        </div>
+    </div>
+    
+    <!--  Page: Content  -->
+    <div id="Content2" data-role="page">
+        <div data-role="header">
+            <h3></h3>
+            <a class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-home" href="index.html" rel="external">Back Home</a>
+        </div>
+        <div class="ui-content">
+            <div id="picture" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">人物</div>
+            <div><img src="images/pic02.jpg" style="width:100%;"></div>
+        </div>
+    </div>
+    
+    <!-- 蜘蛛人 Page: Content  -->
+    <div id="Content3" data-role="page">
+        <div data-role="header">
+            <h3></h3>
+            <a class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-home" href="index.html" rel="external">Back Home</a>
+        </div>
+        <div class="ui-content">
+            <div id="picture" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">動物</div>
+            <div><img src="images/pic03.jpg" style="width:100%;"></div>
+        </div>
+    </div>
+    
+    <!-- 浩克 Page: Content  -->
+    <div id="Content4" data-role="page">
+        <div data-role="header">
+            <h3></h3>
+            <a class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-home" href="index.html" rel="external">Back Home</a>
+        </div>
+        <div class="ui-content">
+            <div id="picture" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">其他</div>
+            <div><img src="images/01.gif" style="width:100;"></div>
+        </div>
+    </div>
+    
+   
+    
+</body>
+</html>
